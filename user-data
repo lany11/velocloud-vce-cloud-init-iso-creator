@@ -1,9 +1,0 @@
-#cloud-config
-password: arista123
-chpasswd: { expire: False }
-ssh_pwauth: True
-velocloud:
-  vce:
-    vco: test.velocloud.net
-    activation_code: ABCD-1234-EFGH-5678
-    vco_ignore_cert_errors: false
